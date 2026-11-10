@@ -27,7 +27,7 @@ jobs:
           gradle-version: '9.5.1'
 
       - name: Build Minecraft mod
-        working-directory: UltimateClient-Fabric-26.2
+        working-directory: UltimateClient-Fabric-26.2-cloud-build/UltimateClient-Fabric-26.2
         run: gradle build
 
       - name: Upload mod JAR
